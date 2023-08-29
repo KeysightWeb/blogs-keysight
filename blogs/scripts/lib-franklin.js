@@ -589,35 +589,35 @@ export function loadKeysightHeader(header) {
   let url;
   switch (lc) {
     case 'por': {
-      url = 'https://www.keysight.com/etc/keysight/api/headerFooterExporter.markup.json?component=header&ctry=br&lang=pt_br';
+      url = 'https://www.keysight.com/etc/keysight/api/headerFooterExporter.markup.json?component=minheader&ctry=br&lang=pt_br';
       break;
     }
     case 'chi': {
-      url = 'https://www.keysight.com/etc/keysight/api/headerFooterExporter.markup.json?component=header&ctry=cn&lang=zh_cn';
+      url = 'https://www.keysight.com/etc/keysight/api/headerFooterExporter.markup.json?component=minheader&ctry=cn&lang=zh_cn';
       break;
     }
     case 'cht': {
-      url = 'https://www.keysight.com/etc/keysight/api/headerFooterExporter.markup.json?component=header&ctry=tw&lang=zh_tw';
+      url = 'https://www.keysight.com/etc/keysight/api/headerFooterExporter.markup.json?component=minheader&ctry=tw&lang=zh_tw';
       break;
     }
     case 'jpn': {
-      url = 'https://www.keysight.com/etc/keysight/api/headerFooterExporter.markup.json?component=header&ctry=jp&lang=ja';
+      url = 'https://www.keysight.com/etc/keysight/api/headerFooterExporter.markup.json?component=minheader&ctry=jp&lang=ja';
       break;
     }
     case 'kor': {
-      url = 'https://www.keysight.com/etc/keysight/api/headerFooterExporter.markup.json?component=header&ctry=kr&lang=ko';
+      url = 'https://www.keysight.com/etc/keysight/api/headerFooterExporter.markup.json?component=minheader&ctry=kr&lang=ko';
       break;
     }
     case 'rus': {
-      url = 'https://www.keysight.com/etc/keysight/api/headerFooterExporter.markup.json?component=header&ctry=ru&lang=ru';
+      url = 'https://www.keysight.com/etc/keysight/api/headerFooterExporter.markup.json?component=minheader&ctry=ru&lang=ru';
       break;
     }
     case 'ger': {
-      url = 'https://www.keysight.com/etc/keysight/api/headerFooterExporter.markup.json?component=header&ctry=de&lang=de';
+      url = 'https://www.keysight.com/etc/keysight/api/headerFooterExporter.markup.json?component=minheader&ctry=de&lang=de';
       break;
     }
     default:
-      url = `https://www.keysight.com/etc/keysight/api/headerFooterExporter.markup.json?component=header&ctry=${cc}&lang=en`;
+      url = `https://www.keysight.com/etc/keysight/api/headerFooterExporter.markup.json?component=minheader&ctry=${cc}&lang=en`;
   }
   const headerBlock = buildBlock('header', '');
   fetch(url)
@@ -642,7 +642,7 @@ export function loadKeysightHeader(header) {
           }
         });
       }
-      fetch('https://www.keysight.com/etc/keysight/api/headerFooterExporter.style.html?component=header&ctry=us&lang=en&type=js')
+      fetch('https://www.keysight.com/etc/keysight/api/headerFooterExporter.style.html?component=minheader&ctry=us&lang=en&type=js')
         .then((response) => response.text())
         .then((data1) => {
           const resultAfterSplit = data1.split('src="');
