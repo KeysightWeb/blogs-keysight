@@ -24,6 +24,7 @@
   color: #262626 !important;
   font-weight: 500;
 }
+
 .keysight-header li.gnav-more a:hover {
   color: #E90029 !important ;
 }
@@ -33,17 +34,10 @@
     width: max-content; 
   }
 }
+
 .keysight-header  #keysight-lookahead-search #search-lookahead-input:focus {
  padding: 14px 12px !important;
 }
-
-.keysight-header .solutions-image-container:hover {
-cursor: pointer;
-filter: brightness(130%);
-border: 1px solid #E90029 !important;
-border-radius: 23px;
-}
-
 
 .keysight-header  #keysight-lookahead-search #search-lookahead-input {
   font-size: 18px !important;
@@ -73,6 +67,13 @@ font-size: 14px !important;
 top: 10px !important;
 }  
 
+.keysight-header .solutions-image-container:hover {
+  cursor: pointer;
+  filter: brightness(130%);
+  border: 1px solid #E90029 !important;
+  border-radius: 23px;
+  }
+  
 .keysight-header  .locale-chooser {
 display: none !important;
 }
