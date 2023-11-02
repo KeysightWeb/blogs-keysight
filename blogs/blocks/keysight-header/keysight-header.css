@@ -116,17 +116,4 @@ display: none !important;
   border: 0 solid #dbd9dd !important;
 }
 
-.keysight-header #keysight-lookahead-search div h2 {
-  text-align: center;
-  text-transform: inherit;
-  margin-bottom: 2rem;
-  font-size: 36px;
-}
-
-  .keysight-header .solutions-image-container:hover {
-    cursor: pointer;
-    filter: brightness(130%);
-    border: 1px solid #E90029 !important;
-    border-radius: 23px;
-  }
 
