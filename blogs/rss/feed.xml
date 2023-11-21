@@ -2,10 +2,162 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://www.keysight.com/blogs</id>
     <title>Keysight Blogs</title>
-    <updated>2023-10-20T00:00:00.000Z</updated>
+    <updated>2023-11-17T00:00:00.000Z</updated>
     <generator>News feed generator (GitHub action)</generator>
     <link rel="alternate" href="https://www.keysight.com/blogs"/>
     <subtitle>Keysight Blogs</subtitle>
+    <entry>
+        <title type="html"><![CDATA[6G and the future of Telecom]]></title>
+        <id>https://www.keysight.com/blogs/tech/2023/11/17/6g-and-the-future-of-telecom</id>
+        <link href="https://www.keysight.com/blogs/tech/2023/11/17/6g-and-the-future-of-telecom"/>
+        <updated>2023-11-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[Find out how 6G will shape our future, the technologies that it will primarily rely on, and how Keysight helps make all this possible.]]></content>
+        <published>2023-11-17T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enhancing the ROI of Third-Party Semiconductor Intellectual Properties (IPs)]]></title>
+        <id>https://www.keysight.com/blogs/tech/sim-des/2023/11/17/enhancing-the-roi-of-third-party-semiconductor-intellectual-properties-ips</id>
+        <link href="https://www.keysight.com/blogs/tech/sim-des/2023/11/17/enhancing-the-roi-of-third-party-semiconductor-intellectual-properties-ips"/>
+        <updated>2023-11-17T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[Effective semiconductor IP management enables IC design teams to comprehensively evaluate what IP fits the design needs while simplifying the IP integration and verification processes. Learn how HUB plays a more critical role in maximizing organizations’ IP reuse strategies.]]></content>
+        <published>2023-11-17T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Digital Twins and Non-terrestrial Networks: Applications from NASA Spacecraft to the Ukraine Conflict]]></title>
+        <id>https://www.keysight.com/blogs/inds/2023/11/13/digital-twins-and-non-terrestrial-networks-applications-from-nasa-spacecraft-to-the-ukraine-conflict</id>
+        <link href="https://www.keysight.com/blogs/inds/2023/11/13/digital-twins-and-non-terrestrial-networks-applications-from-nasa-spacecraft-to-the-ukraine-conflict"/>
+        <updated>2023-11-13T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[As the space industry undergoes unprecedented disruption, non-terrestrial networks and the digital twins helping develop them take center stage. Learn from the experts how non-terrestrial networks will revolutionize mission-critical, time-critical communications for emergency response, regional conflict surveillance, and more.]]></content>
+        <published>2023-11-13T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Stay safe from the latest cyber threats: October 2023 update]]></title>
+        <id>https://www.keysight.com/blogs/tech/nwvs/2023/11/threatsimulator-latestthreats-oct-2023</id>
+        <link href="https://www.keysight.com/blogs/tech/nwvs/2023/11/threatsimulator-latestthreats-oct-2023"/>
+        <updated>2023-11-10T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[Replicate real-world threats and proactively test your controls to ensure that your security posture is prepared, armed with IOC’s.]]></content>
+        <published>2023-11-10T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Can Software Testing Deliver ROI?]]></title>
+        <id>https://www.keysight.com/blogs/tech/software-testing/2023/11/6/software-testing-roi</id>
+        <link href="https://www.keysight.com/blogs/tech/software-testing/2023/11/6/software-testing-roi"/>
+        <updated>2023-11-06T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[The view of software testing is changing. Instead of a financial burden, software testing is providing substantial cost savings and return on investment (ROI). However, is software testing is to contribute towards revenue, teams need to adopt modern methods and move away from manual testing.]]></content>
+        <published>2023-11-06T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[5 Requirements Your Network Simulator Tool Must Satisfy]]></title>
+        <id>https://www.keysight.com/blogs/tech/nwvs/2023/11/five-requirements-your-network-simulator-tool-must-satisfy</id>
+        <link href="https://www.keysight.com/blogs/tech/nwvs/2023/11/five-requirements-your-network-simulator-tool-must-satisfy"/>
+        <updated>2023-11-02T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[Discover the 5 must-have features for a top-notch network simulator tool —  ensuring accuracy, speed, ease of use, visualization, and live application interfacing.]]></content>
+        <published>2023-11-02T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Zero-Day Attacks and What Organizations Can Do to Prevent Them]]></title>
+        <id>https://www.keysight.com/blogs/tech/nwvs/2023/11/zero-day-attacks-and-what-organizations-can-do-to-prevent-them</id>
+        <link href="https://www.keysight.com/blogs/tech/nwvs/2023/11/zero-day-attacks-and-what-organizations-can-do-to-prevent-them"/>
+        <updated>2023-11-02T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[Zero-day attacks are a growing threat to organizations of all sizes. Learn how to protect yourself with proactive and preemptive measures like network simulation.]]></content>
+        <published>2023-11-02T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Best practices for Rack Mounting Your Power Supply]]></title>
+        <id>https://www.keysight.com/blogs/tech/bench/2023/11/8/how-to-rack-mount-a-power-supply-v3</id>
+        <link href="https://www.keysight.com/blogs/tech/bench/2023/11/8/how-to-rack-mount-a-power-supply-v3"/>
+        <updated>2023-11-01T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[Learn best practices for installing a power supply in a rack mount.  These practices will ensure the unit's safety, reliability, and performance.]]></content>
+        <published>2023-11-01T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Five Surprising Benefits of Network Visualization]]></title>
+        <id>https://www.keysight.com/blogs/tech/nwvs/2023/10/31/five-surprising-benefits-of-network-visualization</id>
+        <link href="https://www.keysight.com/blogs/tech/nwvs/2023/10/31/five-surprising-benefits-of-network-visualization"/>
+        <updated>2023-10-31T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[Uncover the transformative power of network visualization and how it can deliver surprising benefits like collaboration, resource optimization, security, scalability and more.]]></content>
+        <published>2023-10-31T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Unlocking Precision and Versatility with BV9200B BenchVue Advanced Power Control and Analysis Software]]></title>
+        <id>https://www.keysight.com/blogs/tech/bench/2023/10/31/unlocking-precision-and-versatility-with-bv9200b-benchvue-advanced-power-control-and-analysis-software</id>
+        <link href="https://www.keysight.com/blogs/tech/bench/2023/10/31/unlocking-precision-and-versatility-with-bv9200b-benchvue-advanced-power-control-and-analysis-software"/>
+        <updated>2023-10-31T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[The Keysight Technologies BV9200B PathWave BenchVue Advanced Power Control and Analysis software for advanced power supplies was designed to give you fast and easy access to the advanced sourcing and measurement functionality of your N6705 DC power analyzer, RP7900 Series Regenerative Power System, and/or Advanced Power System (APS) N7900 Series power supplies without any programming.]]></content>
+        <published>2023-10-31T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[A Comprehensive Guide to Installing BenchVue Basic]]></title>
+        <id>https://www.keysight.com/blogs/tech/bench/2023/10/31/a-comprehensive-guide-to-installing-benchvue-basic</id>
+        <link href="https://www.keysight.com/blogs/tech/bench/2023/10/31/a-comprehensive-guide-to-installing-benchvue-basic"/>
+        <updated>2023-10-31T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[BenchVue Basic is a free version of software from the PathWave BenchVue software family.]]></content>
+        <published>2023-10-31T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Simplifying the Complexity of POS Testing with Automation and Robotics]]></title>
+        <id>https://www.keysight.com/blogs/tech/software-testing/2023/10/30/simplifying-the-complexity-of-pos-testing-with-automation-and-robotics</id>
+        <link href="https://www.keysight.com/blogs/tech/software-testing/2023/10/30/simplifying-the-complexity-of-pos-testing-with-automation-and-robotics"/>
+        <updated>2023-10-30T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[Testing software and hardware together has always been thought of as impossible. Not anymore. With Keysight Eggplant driving robotics, retail QA leaders can sleep soundly knowing that they have overcome POS testing complexity.]]></content>
+        <published>2023-10-30T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Addressing Device Modeling Challenges for Advanced Technologies]]></title>
+        <id>https://www.keysight.com/blogs/tech/sim-des/2023/10/30/addressing-device-modeling-challenges-for-advanced-technologies</id>
+        <link href="https://www.keysight.com/blogs/tech/sim-des/2023/10/30/addressing-device-modeling-challenges-for-advanced-technologies"/>
+        <updated>2023-10-30T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[Explore the innovations of semiconductor device modeling in the post-Moore's Law era. Join us for an interview with Sherry Lyu, Device Modeling Solution Engineer at Keysight, as she shares her insights on the latest trends and challenges.]]></content>
+        <published>2023-10-30T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Is Your DDoS Mitigation Ready for 398 million Requests Per Second?]]></title>
+        <id>https://www.keysight.com/blogs/tech/nwvs/2023/10/28/is-your-ddos-mitigation-ready-for-398-million-requests-per-second</id>
+        <link href="https://www.keysight.com/blogs/tech/nwvs/2023/10/28/is-your-ddos-mitigation-ready-for-398-million-requests-per-second"/>
+        <updated>2023-10-28T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[Mitigating the Rapid Reset attack and Hyperscale DDoS with Keysight BreakingPoint]]></content>
+        <published>2023-10-28T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Tune In: Experts from Google, Yale and August US, and Afero Discuss Cyber Trust Mark]]></title>
+        <id>https://www.keysight.com/blogs/tech/nwvs/2023/10/27/cyber-trust-mark-event</id>
+        <link href="https://www.keysight.com/blogs/tech/nwvs/2023/10/27/cyber-trust-mark-event"/>
+        <updated>2023-10-27T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[In just 40 minutes on Januaey 24, you'll hear from experts at Google, Yale and August US, and Afero discuss the Cyber Trust Mark, securing the internet of things, and plenty more.]]></content>
+        <published>2023-10-27T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What are the differences between auto, seamless, and fixed measurement ranging in an SMU?]]></title>
+        <id>https://www.keysight.com/blogs/tech/bench/2023/10/26/what-are-the-differences-between-auto-seamless-and-fixed-measurement-ranging-in-an-smu</id>
+        <link href="https://www.keysight.com/blogs/tech/bench/2023/10/26/what-are-the-differences-between-auto-seamless-and-fixed-measurement-ranging-in-an-smu"/>
+        <updated>2023-10-26T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[Learn how to optimize your measurement resolution and select the ideal mode for your specific application using Auto, Seamless, or Fixed SMU Measurement Modes]]></content>
+        <published>2023-10-26T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What Is the US Cyber Trust Mark?]]></title>
+        <id>https://www.keysight.com/blogs/tech/nwvs/2023/10/25/what-is-us-cyber-trust-mark</id>
+        <link href="https://www.keysight.com/blogs/tech/nwvs/2023/10/25/what-is-us-cyber-trust-mark"/>
+        <updated>2023-10-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[The US Cyber Trust Mark is a certification program that will strengthen IoT security by generating consumer awareness and providing incentives for device manufacturers.]]></content>
+        <published>2023-10-25T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Mastering Electromagnetic Interference (EMI) in Power Electronics]]></title>
+        <id>https://www.keysight.com/blogs/tech/sim-des/2023/10/25/mastering-electromagnetic-interference-emi-in-power-electronics</id>
+        <link href="https://www.keysight.com/blogs/tech/sim-des/2023/10/25/mastering-electromagnetic-interference-emi-in-power-electronics"/>
+        <updated>2023-10-25T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[For power electronics engineers operating in the high-stakes realms of electric vehicles, aerospace, defense, and new energy systems, conquering Electromagnetic Interference (EMI) is paramount. Navigate EMI challenges with an educational journey seamlessly blending theoretical knowledge with practical experimentation.]]></content>
+        <published>2023-10-25T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Enhancing Semiconductor Device Modeling with Recentering]]></title>
+        <id>https://www.keysight.com/blogs/tech/sim-des/2023/10/24/enhancing-semiconductor-device-modeling-with-recentering</id>
+        <link href="https://www.keysight.com/blogs/tech/sim-des/2023/10/24/enhancing-semiconductor-device-modeling-with-recentering"/>
+        <updated>2023-10-24T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[In response to the growing demand for modeling efficeincy and handling larger volumes of data, we are excited to introduce the IC-CAP Model Generator Recentering Tool. Explore key features of this new tool that can help save up to 70% model extraction time compared to traditional recentering approaches.]]></content>
+        <published>2023-10-24T00:00:00.000Z</published>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Join us at the IoT Security Foundation event on Tuesday 7th November]]></title>
         <id>https://www.keysight.com/blogs/tech/nwvs/2023/10/19/iot-security-foundation-event-final</id>
@@ -34,6 +186,14 @@
         <title type="html"><![CDATA[What are the different SMU operation modes and when do you use each one?]]></title>
         <id>https://www.keysight.com/blogs/tech/bench/2023/10/18/what-are-the-different-smu-operation-modes-v2</id>
         <link href="https://www.keysight.com/blogs/tech/bench/2023/10/18/what-are-the-different-smu-operation-modes-v2"/>
+        <updated>2023-10-18T00:00:00.000Z</updated>
+        <content type="html"><![CDATA[Explore the world of Source/Monitor Units (SMUs) and their diverse operation modes. From 'normal' for conventional use to 'laser diode' for precision pulsing.]]></content>
+        <published>2023-10-18T00:00:00.000Z</published>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[What are the different SMU operation modes and when do you use each one?]]></title>
+        <id>https://www.keysight.com/blogs/tech/bench/2023/10/18/what-are-the-different-smu-operation-modes-and-when-do-you-use-each-one-updated</id>
+        <link href="https://www.keysight.com/blogs/tech/bench/2023/10/18/what-are-the-different-smu-operation-modes-and-when-do-you-use-each-one-updated"/>
         <updated>2023-10-18T00:00:00.000Z</updated>
         <content type="html"><![CDATA[Explore the world of Source/Monitor Units (SMUs) and their diverse operation modes. From 'normal' for conventional use to 'laser diode' for precision pulsing.]]></content>
         <published>2023-10-18T00:00:00.000Z</published>
