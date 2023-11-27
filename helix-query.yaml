@@ -4,7 +4,7 @@ indices:
   default:
     include:
       - /blogs/**
-    target: /blogs/query-index.json
+    target: /blogs/en/query-index.json
     properties:
       lastModified:
         select: none
