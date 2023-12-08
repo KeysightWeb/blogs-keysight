@@ -13,7 +13,7 @@ on:
       - '.github/workflows/generate-atom-news-feed.yaml'
 
 env:
-  ENDPOINT: "https://www.keysight.com/blogs/query-index.json"
+  ENDPOINT: "https://www.keysight.comquery-index.json"
   FEEDINFOENDPOINT: "https://www.keysight.com/blogs/feed-info.json"
   TARGETDIRECTORY: "../../blogs/rss"
 

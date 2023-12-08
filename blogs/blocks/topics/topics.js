@@ -55,7 +55,7 @@ export default async function decorate(block) {
   const topicList = createElement('ul', 'topics-list');
 
   const loadNavTopics = async () => {
-    const resp = await fetch('/blogs/nav.plain.html');
+    const resp = await fetch('/blogs/en/nav.plain.html');
     if (resp.ok) {
       const html = await resp.text();
       const temp = createElement('div');

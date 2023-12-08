@@ -78,7 +78,7 @@ async function getTagsLinks(post) {
       const item = createElement('li');
       const link = createElement('a');
       link.innerText = `#${tag.TAG_TITLE}`;
-      link.href = `/blogs/tag-matches?tag=${encodeURIComponent(tag.TAG_TITLE)}`;
+      link.href = `/blogs/en/tag-matches?tag=${encodeURIComponent(tag.TAG_TITLE)}`;
       item.append(link);
       list.append(item);
     });
