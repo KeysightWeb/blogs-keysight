@@ -82,6 +82,12 @@ export function loadScript(url, type, callback) {
   return script;
 }
 
+export function fetchFromAEM(url) {
+  const isProd = PRODUCTION_DOMAINS.some((domain) => window.location.hostname.includes(domain));
+  const fetchUrl = isProd ? url : `https://www.keysight.com${url}`;
+  return fetch(fetchUrl);
+}
+
 /**
  * Load the launch library applicable to the domain
  */

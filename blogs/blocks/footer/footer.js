@@ -1,5 +1,5 @@
 import { decorateIcons } from '../../scripts/lib-franklin.js';
-import { createElement } from '../../scripts/scripts.js';
+import { createElement, fetchFromAEM } from '../../scripts/scripts.js';
 import getCookie from '../../util/getCookies.js';
 
 /**
@@ -63,7 +63,7 @@ export default async function decorate(block) {
       url = `/etc/keysight/api/headerFooterExporter.markup.json?component=footer&ctry=${cc}&lang=en`;
   }
 
-  const markupResponse = await fetch(url);
+  const markupResponse = await fetchFromAEM(url);
   if (markupResponse.ok) {
     const data = await markupResponse.text();
     const footer = createElement('div');

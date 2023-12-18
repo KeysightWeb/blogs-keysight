@@ -1,6 +1,6 @@
 import { loadCSS } from '../../scripts/lib-franklin.js';
 import getCookie from '../../util/getCookies.js';
-import { loadScript } from '../../scripts/scripts.js';
+import { loadScript, fetchFromAEM } from '../../scripts/scripts.js';
 
 export default async function decorate(block) {
   loadScript(`${window.hlx.codeBasePath}/scripts/vendors/jquery-3.5.min.js`, 'text/javascript', () => {
@@ -51,7 +51,7 @@ export default async function decorate(block) {
       url = `/etc/keysight/api/headerFooterExporter.markup.json?component=header&ctry=${cc}&lang=en`;
   }
 
-  const response = await fetch('/etc/keysight/api/headerFooterExporter.style.html?component=header&ctry=us&lang=en&type=css');
+  const response = await fetchFromAEM('/etc/keysight/api/headerFooterExporter.style.html?component=header&ctry=us&lang=en&type=css');
   if (response.ok) {
     const data2 = await response.text();
     const domParser = new DOMParser();
@@ -59,7 +59,7 @@ export default async function decorate(block) {
     cssDoc.querySelectorAll('link[href]').forEach((link) => {
       loadCSS(link.href);
     });
-    const markupResponse = await fetch(url);
+    const markupResponse = await fetchFromAEM(url);
     if (markupResponse.ok) {
       const data = await markupResponse.text();
 
@@ -82,7 +82,7 @@ export default async function decorate(block) {
           }
         });
       }
-      const jsResponse = await fetch('/etc/keysight/api/headerFooterExporter.style.html?component=header&ctry=us&lang=en&type=js');
+      const jsResponse = await fetchFromAEM('/etc/keysight/api/headerFooterExporter.style.html?component=header&ctry=us&lang=en&type=js');
       if (jsResponse.ok) {
         const data1 = await jsResponse.text();
         const resultAfterSplitJS = data1.split('src="');
