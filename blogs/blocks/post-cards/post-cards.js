@@ -125,7 +125,7 @@ async function buildPostCard(post, index) {
     topicText = subtopic;
   }
 
-  const description = post.content !== '0' ? post.content : post.description;
+  const description = post.teaserDescription;
 
   postCard.innerHTML = `
     <a class="post-card-image" title="${post.title.replaceAll('"', '')}" href="${post.path}">${pic.outerHTML}</a>
@@ -184,6 +184,17 @@ async function loadPage(grid) {
     }
   }
   const postsGenerator = getPostsFfetch()
+    .follow('path', 'docContent')
+    .map((post) => {
+      const { docContent } = post;
+
+      const firstParagraph = docContent.querySelector('main > div:nth-of-type(2) > p');
+
+      return {
+        ...post,
+        teaserDescription: firstParagraph ? firstParagraph.innerText : post.description,
+      };
+    })
     .filter(filterPosts(filter, pageTag, postTags))
     .slice(counter, end);
 

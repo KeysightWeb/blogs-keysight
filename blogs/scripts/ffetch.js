@@ -14,7 +14,7 @@ async function* request(url, context) {
   const { chunks, sheet, fetch } = context;
   for (let offset = 0, total = Infinity; offset < total; offset += chunks) {
     const params = new URLSearchParams(`offset=${offset}&limit=${chunks}`);
-    if (sheet) params.append('sheet', sheet);
+    if (sheet) params.append(`sheet`, sheet);
     const resp = await fetch(`${url}?${params.toString()}`);
     if (resp.ok) {
       const json = await resp.json();
@@ -100,13 +100,16 @@ function slice(upstream, context, from, to) {
   return limit(skip(upstream, context, from), context, to - from);
 }
 
-function follow(upstream, context, name, maxInFlight = 5) {
+function follow(upstream, context, name, newName, maxInFlight = 5) {
   const { fetch, parseHtml } = context;
   return map(upstream, context, async (entry) => {
     const value = entry[name];
     if (value) {
       const resp = await fetch(value);
-      return { ...entry, [name]: resp.ok ? parseHtml(await resp.text()) : null };
+      return {
+        ...entry,
+        [newName || name]: resp.ok ? parseHtml(await resp.text()) : null,
+      };
     }
     return entry;
   }, maxInFlight);
