@@ -54,6 +54,23 @@
 font-size: 14px !important;
 }
 
+.keysight-header .gnav-nested.learn > div > ul > li {		
+  width: 252px;
+}
+
+.keysight-header .gnav-nested.learn > div > ul > .gnav-hassub > .gnav-submenu {     
+  left: 15.5em;
+  width: 230px; 
+} 
+
+.keysight-header .gnav-nested.learn {
+  width: 272px !important;
+}
+
+.keysight-header .gnav-nested.expand.learn {
+  width: 480px !important;
+}
+
 .keysight-header #keysight-lookahead-search .search-results-block ul li {
 font-size: 14px !important;
 padding: 12px !important;
@@ -93,7 +110,7 @@ display: none !important;
 .keysight-header .has-cart {
   display: none !important;
 }
-
+  
 .keysight-header #toputil {
   display: block; 
   justify-content: flex-end; 
