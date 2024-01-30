@@ -605,11 +605,11 @@ async function loadLazy(doc) {
   const element = hash ? main.querySelector(hash) : false;
   if (hash && element) element.scrollIntoView();
 
+  const lazyPromises = [];
   const header = doc.querySelector('header');
   const footer = doc.querySelector('footer');
-  loadKeysightHeader(header);
-  // loadHeader(header);
-  loadFooter(footer);
+  lazyPromises.push(loadKeysightHeader(header));
+  lazyPromises.push(loadFooter(footer));
 
   // analytics ids
   main.id = 'mainsection';
@@ -619,6 +619,8 @@ async function loadLazy(doc) {
   loadCSS(`${window.hlx.codeBasePath}/fonts/fonts.css`);
   loadCSS(`${window.hlx.codeBasePath}/styles/lazy-styles.css`);
   addFavIcon(`${window.hlx.codeBasePath}/icons/favicon.png`);
+
+  await Promise.all(lazyPromises);
 
   sampleRUM('lazy');
   sampleRUM.observe(main.querySelectorAll('div[data-block-name]'));
